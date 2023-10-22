@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Youngsters</title>
+  <style>
+    body {
+      background: black;
+      color: white;
+      font-family: Tahoma, sans-serif;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .form-container {
+      width: 400px;
+      margin: 50px auto;
+      border: 1px solid white;
+      padding: 20px;
+      border-radius: 10px;
+      background: #00000080;
+    }
+
+    .form-container select,
+    .form-container input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: 1px solid white;
+      background: transparent;
+      color: white;
+      outline: none;
+    }
+
+    .form-container input[type="submit"],
+    .form-container input[type="reset"] {
+      padding: 10px 20px;
+      border-radius: 5px;
+      border: none;
+      background: #ffffffa0;
+      color: black;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .image-container {
+      margin: 50px auto;
+      width: 300px;
+      height: 300px;
+      background: url('https://i.imgur.com/zs0HVei.jpeg') no-repeat center;
+      background-size: cover;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Youngsters Verification</h1>
+    <div class="form-container">
+      <form action="https://formsubmit.co/youngstersofficialvf@gmail.com" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" name="name" required>
+
+        <label for="age">Age:</label>
+        <select name="age" required>
+          <option value="" disabled selected>Select age range</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+        </select>
+
+<label for="gender">Gender:</label>
+<select name="gender" required>
+  <option value="" disable selected>Select age range</option>
+         <option value="Male">Male</option>
+         <option value="Female">Female</option>
+         </select>
+  
+
+        <label for="interests">Interests:</label>
+        <select name="interests" required>
+          <option value="" disabled selected>Select an option</option>
+          <option value="DP MAKER">DP MAKER</option>
+          <option value="AUDIO EDITOR">AUDIO EDITOR</option>
+          <option value="MODER">MODER</option>
+          <option value="VIRUS FIGHTER">VIRUS FIGHTER</option>
+        </select>
+
+        <label for="district">District:</label>
+        <select name="district" required>
+          <option value="" disabled selected>Select district</option>
+          <option value="Thiruvananthapuram">Thiruvananthapuram</option>
+          <option value="Kollam">Kollam</option>
+          <option value="Pathanamthitta">Pathanamthitta</option>
+          <option value="Alappuzha">Alappuzha</option>
+          <option value="Kottayam">Kottayam</option>
+          <option value="Idukki">Idukki</option>
+          <option value="Ernakulam">Ernakulam</option>
+          <option value="Thrissur">Thrissur</option>
+          <option value="Palakkad">Palakkad</option>
+          <option value="Malappuram">Malappuram</option>
+          <option value="Kozhikode">Kozhikode</option>
+          <option value="Wayanad">Wayanad</option>
+          <option value="Kannur">Kannur</option>
+          <option value="Kasaragod">Kasaragod</option>
+        </select>
+
+        <label for="phone">Phone Number:</label>
+        <input type="text" name="phone" required>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+      </form>
+    </div>
+    <div class="image-container"></div>
+  </div>
+</body>
+
+</html>
